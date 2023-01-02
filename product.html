@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>ElizFashion</title>
+</head>
+<body>
+    <nav id="primary-nav">
+        <div id="primary-nav--container" class="container">
+            <p>Hi there!</p>
+            <div>
+                <a class="pnc" href="./register.html">join us</a>
+                <a class="pnc" href="./login.html">login</a>
+                <p class="pnc" onclike="logout()" title="click to log out">login</p>
+            </div>
+        </div>
+    </nav>
+    <nav id="secondary-nav" class="sticky" id="navbar">
+        <div id="secondary-nav--container" class="container">
+            <a href="./index.html">
+                <svg width="109" height="40" viewBox="0 0 109 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 3.33301L5 9.99967V33.333C5 34.2171 5.35119 35.0649 5.97631 35.69C6.60143 36.3152 7.44928 36.6663 8.33333 36.6663H31.6667C32.5507 36.6663 33.3986 36.3152 34.0237 35.69C34.6488 35.0649 35 34.2171 35 33.333V9.99967L30 3.33301H10Z" stroke="#FF9900" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5 10H35" stroke="#FF9900" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M26.6667 16.667C26.6667 18.4351 25.9643 20.1308 24.7141 21.381C23.4638 22.6313 21.7682 23.3337 20 23.3337C18.2319 23.3337 16.5362 22.6313 15.286 21.381C14.0358 20.1308 13.3334 18.4351 13.3334 16.667" stroke="#FF9900" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M45.321 16V5.09091H51.9048V6.26278H46.642V9.94886H51.5639V11.1207H46.642V14.8281H51.9901V16H45.321ZM54.2859 16V5.09091H55.6069V14.8281H60.6779V16H54.2859ZM64.0444 5.09091V16H62.7234V5.09091H64.0444ZM66.3309 16V15.0412L72.2116 6.26278H66.267V5.09091H73.7883V6.04972L67.9076 14.8281H73.8522V16H66.3309Z" fill="black"/>
+                    <path d="M45.321 34V23.0909H51.8622V24.2628H46.642V27.9489H51.3722V29.1207H46.642V34H45.321ZM53.2099 34H51.8249L55.8306 23.0909H57.1942L61.1999 34H59.815L56.555 24.8168H56.4698L53.2099 34ZM53.7212 29.7386H59.3036V30.9105H53.7212V29.7386ZM68.8651 25.8182C68.8011 25.2784 68.5419 24.8594 68.0874 24.5611C67.6328 24.2628 67.0753 24.1136 66.4148 24.1136C65.9318 24.1136 65.5092 24.1918 65.147 24.348C64.7884 24.5043 64.5078 24.7191 64.3054 24.9925C64.1065 25.266 64.0071 25.5767 64.0071 25.9247C64.0071 26.2159 64.0763 26.4663 64.2148 26.6758C64.3569 26.8817 64.538 27.054 64.7582 27.1925C64.9783 27.3274 65.2092 27.4393 65.4506 27.5281C65.6921 27.6133 65.9141 27.6825 66.1165 27.7358L67.2244 28.0341C67.5085 28.1087 67.8246 28.2116 68.1726 28.343C68.5241 28.4744 68.8597 28.6538 69.1793 28.881C69.5025 29.1048 69.7688 29.3924 69.9783 29.744C70.1879 30.0955 70.2926 30.527 70.2926 31.0384C70.2926 31.6278 70.1381 32.1605 69.8292 32.6364C69.5238 33.1122 69.0763 33.4904 68.4869 33.771C67.9009 34.0515 67.1889 34.1918 66.3509 34.1918C65.5696 34.1918 64.8931 34.0657 64.3214 33.8136C63.7532 33.5614 63.3058 33.2099 62.979 32.7589C62.6559 32.3079 62.473 31.7841 62.4304 31.1875H63.794C63.8295 31.5994 63.968 31.9403 64.2095 32.2102C64.4545 32.4766 64.7635 32.6754 65.1364 32.8068C65.5128 32.9347 65.9176 32.9986 66.3509 32.9986C66.8551 32.9986 67.3079 32.9169 67.7092 32.7536C68.1104 32.5866 68.4283 32.3558 68.6626 32.0611C68.897 31.7628 69.0142 31.4148 69.0142 31.017C69.0142 30.6548 68.913 30.3601 68.7106 30.1328C68.5082 29.9055 68.2418 29.7209 67.9116 29.5788C67.5813 29.4368 67.2244 29.3125 66.8409 29.206L65.4986 28.8224C64.6463 28.5774 63.9716 28.2276 63.4744 27.7731C62.9773 27.3185 62.7287 26.7237 62.7287 25.9886C62.7287 25.3778 62.8938 24.8452 63.2241 24.3906C63.5579 23.9325 64.0053 23.5774 64.5664 23.3253C65.131 23.0696 65.7614 22.9418 66.4574 22.9418C67.1605 22.9418 67.7855 23.0678 68.3324 23.32C68.8793 23.5685 69.3125 23.9094 69.6321 24.3427C69.9553 24.7759 70.1257 25.2678 70.1435 25.8182H68.8651ZM72.4646 34V23.0909H73.7856V27.9489H79.6024V23.0909H80.9234V34H79.6024V29.1207H73.7856V34H72.4646ZM84.8891 23.0909V34H83.5681V23.0909H84.8891ZM96.7424 28.5455C96.7424 29.696 96.5346 30.6903 96.1191 31.5284C95.7037 32.3665 95.1337 33.0128 94.4093 33.4673C93.6848 33.9219 92.8574 34.1491 91.927 34.1491C90.9966 34.1491 90.1692 33.9219 89.4448 33.4673C88.7203 33.0128 88.1504 32.3665 87.7349 31.5284C87.3194 30.6903 87.1117 29.696 87.1117 28.5455C87.1117 27.3949 87.3194 26.4006 87.7349 25.5625C88.1504 24.7244 88.7203 24.0781 89.4448 23.6236C90.1692 23.169 90.9966 22.9418 91.927 22.9418C92.8574 22.9418 93.6848 23.169 94.4093 23.6236C95.1337 24.0781 95.7037 24.7244 96.1191 25.5625C96.5346 26.4006 96.7424 27.3949 96.7424 28.5455ZM95.464 28.5455C95.464 27.6009 95.3059 26.8036 94.9899 26.1538C94.6774 25.5039 94.253 25.0121 93.7168 24.6783C93.1841 24.3445 92.5875 24.1776 91.927 24.1776C91.2665 24.1776 90.6681 24.3445 90.1319 24.6783C89.5993 25.0121 89.1749 25.5039 88.8588 26.1538C88.5463 26.8036 88.3901 27.6009 88.3901 28.5455C88.3901 29.4901 88.5463 30.2873 88.8588 30.9371C89.1749 31.587 89.5993 32.0788 90.1319 32.4126C90.6681 32.7464 91.2665 32.9134 91.927 32.9134C92.5875 32.9134 93.1841 32.7464 93.7168 32.4126C94.253 32.0788 94.6774 31.587 94.9899 30.9371C95.3059 30.2873 95.464 29.4901 95.464 28.5455ZM107.614 23.0909V34H106.336L100.391 25.4347H100.285V34H98.9636V23.0909H100.242L106.208 31.6776H106.314V23.0909H107.614Z" fill="#FF9900"/>
+                </svg>                     
+            </a>
+            <div id="secondary-nav--primary-sect">
+                <a href="./shop.html?ctg=all">New & Featured</a>
+                <a href="./shop.html?ctg=male">Men</a>
+                <a href="./shop.html?ctg=female">Women</a>
+                <a href="./shop.html?ctg=kids">Kids</a>
+            </div>
+            <div id="secondary-nav--secondary-sect">
+                <div class="search-box">
+                    <input type="text" placeholder="Search">
+                    <svg width="1.5rem" height="1.5rem" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </div>
+                <div class="cart-btn" class="ripple">
+                    <svg width="1.5rem" height="1.5rem" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+                </div>
+        </div>
+    </nav>
+    <section id="product-view">
+        <div class="container">
+            <div class="img" id="product-img"></div>
+            <div>
+                <h2 id="product-name" >Lorem ipsum dolor sit amet.</h2>
+                <span id="product-category" >Lorem, ipsum.</span>
+                <div id="product-rating" class="rating">
+                    <svg class="active" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    <svg class="active" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    <svg class="active" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    <svg class="active" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </div>
+                <p id="product-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum iusto unde error, ut beatae quis ratione obcaecati? Voluptatum, sit nam!</p>
+                <p id="product-price" class="price">$20.00</p>
+                <form>
+                    <input type="number" min="1" value="1" name="number" id="Productnumber">
+                    <input type="submit" value="Add to Cart">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="related-products products">
+        <div class="container">
+            <div class="header">
+                <h1>Related</h1>                
+                <div class="navigators">
+                    <div onclick='pan("featured-products", "left")' class="ripple">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    </div>
+                    <div onclick='pan("featured-products", "right")' class="ripple">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="products-grid" id="featured-products">
+                <a class="card" href="./product.html?product=1">
+                    <img src="./images/Products/thumbnail/cap-02.png" alt="Black cap WORTHY">
+                    <div class="desc">
+                        <div>
+                            <p>Black worthy cap</p>
+                            <p>Black cap WORTHY...</p>
+                        </div>
+                        <p>$ 7.400</p>
+                    </div>
+                </a> 
+                <a class="card" href="./product.html?product=4">
+                    <img src="./images/Products/thumbnail/jeans-01.png" alt="Fashionable blue-black cut jeans with decorational badges">
+                    <div class="desc">
+                        <div>
+                            <p>Blue-black cut jeans</p>
+                            <p>Fashionable blue-bla...</p>
+                        </div>
+                        <p>$ 12.20</p>
+                    </div>
+                </a> 
+                <a class="card" href="./product.html?product=6">
+                    <img src="./images/Products/thumbnail/necklace-01.png" alt="Fashionable decorational necklace">
+                    <div class="desc">
+                        <div>
+                            <p>Biamond necklace</p>
+                            <p>Fashionable decorati...</p>
+                        </div>
+                        <p>$ 3547</p>
+                    </div>
+                </a> 
+                <a class="card" href="./product.html?product=12">
+                    <img src="./images/Products/thumbnail/shoe-05.png" alt="Camo green nike air jordans for balling">
+                    <div class="desc">
+                        <div>
+                            <p>Nike jordand</p>
+                            <p>Camo green nike air ...</p>
+                        </div>
+                        <p>$ 52.30</p>
+                    </div>
+                </a> 
+                <a class="card" href="./product.html?product=15">
+                    <img src="./images/Products/thumbnail/toy-02.png" alt="Dispicable me minion action figure">
+                    <div class="desc">
+                        <div>
+                            <p>Minion action figure</p>
+                            <p>Dispicable me minion...</p>
+                        </div>
+                        <p>$ 3.000</p>
+                    </div>
+                </a> 
+                <a class="card" href="./product.html?product=19">
+                    <img src="./images/Products/thumbnail/t-shirt-04.png" alt="Off-white tokyo cat t-shirt original">
+                    <div class="desc">
+                        <div>
+                            <p>Cat t-shirt</p>
+                            <p>Off-white tokyo cat ...</p>
+                        </div>
+                        <p>$ 9.000</p>
+                    </div>
+                </a> 
+                <a class="card" href="./product.html?product=21">
+                    <img src="./images/Products/thumbnail/watch-02.png" alt="IWC schaffhausen analogue watch with brown leader strap, bronze plated">
+                    <div class="desc">
+                        <div>
+                            <p>IWC watch</p>
+                            <p>IWC schaffhausen ana...</p>
+                        </div>
+                        <p>$ 40.00</p>
+                    </div>
+                </a> 
+            
+                <a class="card" href="./product.html?product=28">
+                    <img src="./images/Products/thumbnail/womens-heels-04.png" alt="Cream high heel boots, flat tip with zipper and lace">
+                    <div class="desc">
+                        <div>
+                            <p>High heel boots</p>
+                            <p>Cream high heel boot...</p>
+                        </div>
+                        <p>$ 21.00</p>
+                    </div>
+                </a> 
+            </div>
+        </div>
+    </section>
+    <section class="other-products products">
+        <div class="container">
+            <div class="header">
+                <h1>Others</h1>                
+                <div class="navigators">
+                    <div onclick='pan("top-products", "left")' class="ripple">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    </div>
+                    <div onclick='pan("top-products", "right")' class="ripple">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="products-grid" id="top-products">
+                <a class="card" href="./product.html?product=8">
+                    <img src="./images/Products/thumbnail/shoe-01.png" alt="Pink yeezies 350s">
+                    <div class="desc">
+                        <div>
+                            <p>Pink yeezies</p>
+                            <p>Pink yeezies 350s...</p>
+                        </div>
+                        <p>$ 46.00</p>
+                    </div>
+                </a> 
+                <a class="card" href="./product.html?product=5">
+                    <img src="./images/Products/thumbnail/jeans-02.png" alt="Fashionable blue jeans with decorational badges">
+                    <div class="desc">
+                        <div>
+                            <p>Blue cut jeans</p>
+                            <p>Fashionable blue jea...</p>
+                        </div>
+                        <p>$ 10.20</p>
+                    </div>
+                </a> 
+                <a class="card" href="./product.html?product=11">
+                    <img src="./images/Products/thumbnail/shoe-04.png" alt="White yeezies for jogging and outdooring">
+                    <div class="desc">
+                        <div>
+                            <p>White yeezies</p>
+                            <p>White yeezies for jo...</p>
+                        </div>
+                        <p>$ 32.30</p>
+                    </div>
+                </a> 
+                <a class="card" href="./product.html?product=12">
+                    <img src="./images/Products/thumbnail/shoe-05.png" alt="Camo green nike air jordans for balling">
+                    <div class="desc">
+                        <div>
+                            <p>Nike jordand</p>
+                            <p>Camo green nike air ...</p>
+                        </div>
+                        <p>$ 52.30</p>
+                    </div>
+                </a> 
+                <a class="card" href="./product.html?product=13">
+                    <img src="./images/Products/thumbnail/shoe-06.png" alt="Black nike air forces">
+                    <div class="desc">
+                        <div>
+                            <p>Black air forces</p>
+                            <p>Black nike air force...</p>
+                        </div>
+                        <p>$ 42.30</p>
+                    </div>
+                </a> 
+                <a class="card" href="./product.html?product=20">
+                    <img src="./images/Products/thumbnail/watch-01.png" alt="Fossil 10 atm analogue watch with brown leader strap">
+                    <div class="desc">
+                        <div>
+                            <p>Fossil watch</p>
+                            <p>Fossil 10 atm analog...</p>
+                        </div>
+                        <p>$ 31.00</p>
+                    </div>
+                </a>
+                <a class="card" href="./product.html?product=24">
+                    <img src="./images/Products/thumbnail/womens-heels-05.png" alt="Glitter pink jimmy choo high heels with pointer end">
+                    <div class="desc">
+                        <div>
+                            <p>Jimmy choo high heels</p>
+                            <p>Glitter pink jimmy c...</p>
+                        </div>
+                        <p>$ 31.00</p>
+                    </div>
+                </a> 
+                <a class="card" href="./product.html?product=27">
+                    <img src="./images/Products/thumbnail/womens-heels-03.png" alt="Blue aldo high heels with flower pattern pointed end">
+                    <div class="desc">
+                        <div>
+                            <p>Aldo high heels</p>
+                            <p>Blue aldo high heels...</p>
+                        </div>
+                        <p>$ 51.00</p>
+                    </div>
+                </a> 
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div id="upper">
+                <div class="container" id="footer-links">
+                        <ul>
+                            <li><a href="#">Gift Cards</a></li>
+                            <li><a href="#">Promotions</a></li>
+                            <li><a href="#">Find A Store</a></li>
+                            <li><a href="#">Subscribe</a></li>
+                            <li><a href="#">Send FeedBack</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header"><p>Get Help</p></li>
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header"><p>About us</p></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Investors</a></li>
+                            <li><a href="#">Stability</a></li>
+                        </ul>
+                </div>
+                <div id="footer-socials">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/pascall-de-creator">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/pascall-de-creator">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="lower">
+                <div>
+                    <i>
+                        <svg width="1.5rem" height="1.5rem" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </i>
+                    <p>Accra, Ghana</p>
+                    <p>&copy; 2022 ElizFashion, All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/interact.js"></script>
+    <script src="./scripts/product.js"></script>
+    <script src="./scripts/products.js"></script>
+</body>
+</html>
+<!-- 
++-------------+     +------+                           +----------------
+|  +-------+  |     |  +-+  \                          |  -------------+
+|  |       |  |     |  |  \  \                         |  |
+|  |       |  |     |  |   \  \                        |  |
+|  +-------+  |     |  |    \  \       +------------+  |  |
+|  +----------+     |  |     \  \      |  +---------+  |  |
+|  |                |  |      \  \     |  |            |  |
+|  |                |  |       \  \    |  |            |  |
+|  |                |  |________\  \   |  +---------+  |  +------------+
+|__| ascall         |_______________\  |  +---------+  |_______________| reator
+                                       |  |            
+                                       |  |            
+                                       |  +---------+ 
+                                       |____________|
+-->

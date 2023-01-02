@@ -1,0 +1,296 @@
+{
+    "products" : [
+        {
+            "id": "0001",
+            "name": "Brown camping cap",
+            "description": "Brown camping and outdooring cap with camp badge",
+            "price": 5.60,
+            "rating": 4,
+            "category": "male, female, accessories",
+            "image": "./images/Products/cap-01.jpg",
+            "thumbnail": "./images/Products/thumbnail/cap-01.png"
+        },
+        {
+            "id": "0002",
+            "name": "Black worthy cap",
+            "description": "Black cap WORTHY",
+            "price": 7.40,
+            "rating": 5,
+            "category": "male, female, accessories",
+            "image": "./images/Products/cap-02.jpg",
+            "thumbnail": "./images/Products/thumbnail/cap-02.png"
+        },
+        {
+            "id": "0003",
+            "name": "White cap",
+            "description": "White cap with net back",
+            "price": 6.00,
+            "rating": 3,
+            "category": "male, female, accessories",
+            "image": "./images/Products/cap-03.jpg",
+            "thumbnail": "./images/Products/thumbnail/cap-03.png"
+        },
+        {
+            "id": "0004",
+            "name": "Black cap",
+            "description": "Black cap",
+            "price": 8.00,
+            "rating": 5,
+            "category": "male, female, accessories",
+            "image": "./images/Products/cap-04.jpg",
+            "thumbnail": "./images/Products/thumbnail/cap-04.png"
+        },
+        {
+            "id": "0005",
+            "name": "Blue-black cut jeans",
+            "description": "Fashionable blue-black cut jeans with decorational badges",
+            "price": 12.20,
+            "rating": 4,
+            "category": "male, female, trousers",
+            "image": "./images/Products/jeans-01.jpg",
+            "thumbnail": "./images/Products/thumbnail/jeans-01.png"
+        },
+        {
+            "id": "0006",
+            "name": "Blue cut jeans",
+            "description": "Fashionable blue jeans with decorational badges",
+            "price": 10.20,
+            "rating": 3,
+            "category": "male, female, trousers",
+            "image": "./images/Products/jeans-02.jpg",
+            "thumbnail": "./images/Products/thumbnail/jeans-02.png"
+        },
+        {
+            "id": "0007",
+            "name": "Biamond necklace",
+            "description": "Fashionable decorational necklace",
+            "price": 3546.99,
+            "rating": 5,
+            "category": "male, female, accessories",
+            "image": "./images/Products/necklace-01.jpg",
+            "thumbnail": "./images/Products/thumbnail/necklace-01.png"
+        },
+        {
+            "id": "0008",
+            "name": "Large biamond necklace",
+            "description": "Fashionable decorational single large diamond piece necklace",
+            "price": 1500.00,
+            "rating": 5,
+            "category": "male, female, accessories",
+            "image": "./images/Products/necklace-02.jpg",
+            "thumbnail": "./images/Products/thumbnail/necklace-02.png"
+        },
+        {
+            "id": "0009",
+            "name": "Pink yeezies",
+            "description": "Pink yeezies 350s",
+            "price": 46.00,
+            "rating": 3,
+            "category": "male, female, shoes",
+            "image": "./images/Products/shoe-01.jpg",
+            "thumbnail": "./images/Products/thumbnail/shoe-01.png"
+        },
+        {
+            "id": "0010",
+            "name": "Blue nike airs",
+            "description": "Blue and white nike airs",
+            "price": 36.20,
+            "rating": 4,
+            "category": "male, female, shoes",
+            "image": "./images/Products/shoe-02.jpg",
+            "thumbnail": "./images/Products/thumbnail/shoe-02.png"
+        },
+        {
+            "id": "0011",
+            "name": "K-swiss shoes",
+            "description": "Fashionable outdooring and jogging shoes",
+            "price": 31.20,
+            "rating": 3,
+            "category": "male, female, shoes",
+            "image": "./images/Products/shoe-03.jpg",
+            "thumbnail": "./images/Products/thumbnail/shoe-03.png"
+        },
+        {
+            "id": "0012",
+            "name": "White yeezies",
+            "description": "White yeezies for jogging and outdooring",
+            "price": 32.30,
+            "rating": 4,
+            "category": "male, female, shoes",
+            "image": "./images/Products/shoe-04.jpg",
+            "thumbnail": "./images/Products/thumbnail/shoe-04.png"
+        },
+        {
+            "id": "0013",
+            "name": "Nike jordand",
+            "description": "Camo green nike air jordans for balling",
+            "price": 52.30,
+            "rating": 5,
+            "category": "male, female, shoes",
+            "image": "./images/Products/shoe-05.jpg",
+            "thumbnail": "./images/Products/thumbnail/shoe-05.png"
+        },
+        {
+            "id": "0014",
+            "name": "Black air forces",
+            "description": "Black nike air forces",
+            "price": 42.30,
+            "rating": 5,
+            "category": "male, female, shoes",
+            "image": "./images/Products/shoe-06.jpg",
+            "thumbnail": "./images/Products/thumbnail/shoe-06.png"
+        },
+        {
+            "id": "0015",
+            "name": "Teddy bear",
+            "description": "Brown bear, teddy bear toy medium size",
+            "price": 5.30,
+            "rating": 4,
+            "category": "kids",
+            "image": "./images/Products/toy-01.jpg",
+            "thumbnail": "./images/Products/thumbnail/toy-01.png"
+        },
+        {
+            "id": "0016",
+            "name": "Minion action figure",
+            "description": "Dispicable me minion action figure",
+            "price": 3.00,
+            "rating": 3,
+            "category": "kids",
+            "image": "./images/Products/toy-02.jpg",
+            "thumbnail": "./images/Products/thumbnail/toy-02.png"
+        },
+        {
+            "id": "0017",
+            "name": "Tay son T-shirt",
+            "description": "White tay son brotherhood t-shirt",
+            "price": 9.00,
+            "rating": 4,
+            "category": "male, female, shirts",
+            "image": "./images/Products/t-shirt-01.jpg",
+            "thumbnail": "./images/Products/thumbnail/t-shirt-01.png"
+        },
+        {
+            "id": "0018",
+            "name": "Black T-shirt 705",
+            "description": "black t-shirt 705",
+            "price": 8.00,
+            "rating": 4,
+            "category": "male, female, shirts",
+            "image": "./images/Products/t-shirt-02.jpg",
+            "thumbnail": "./images/Products/thumbnail/t-shirt-02.png"
+        },
+        {
+            "id": "0019",
+            "name": "White t-shirt",
+            "description": "plain shite t-shirt round neck",
+            "price": 5.00,
+            "rating": 3,
+            "category": "male, female, shirts",
+            "image": "./images/Products/t-shirt-03.jpg",
+            "thumbnail": "./images/Products/thumbnail/t-shirt-03.png"
+        },
+        {
+            "id": "0020",
+            "name": "Cat t-shirt",
+            "description": "Off-white tokyo cat t-shirt original",
+            "price": 9.00,
+            "rating": 5,
+            "category": "male, female, shirts",
+            "image": "./images/Products/t-shirt-04.jpg",
+            "thumbnail": "./images/Products/thumbnail/t-shirt-04.png"
+        },
+        {
+            "id": "0021",
+            "name": "Fossil watch",
+            "description": "Fossil 10 atm analogue watch with brown leader strap",
+            "price": 31.00,
+            "rating": 4,
+            "category": "male, female, accessories",
+            "image": "./images/Products/watch-01.jpg",
+            "thumbnail": "./images/Products/thumbnail/watch-01.png"
+        },
+        {
+            "id": "0022",
+            "name": "IWC watch",
+            "description": "IWC schaffhausen analogue watch with brown leader strap, bronze plated",
+            "price": 40.00,
+            "rating": 5,
+            "category": "male, female, accessories",
+            "image": "./images/Products/watch-02.jpg",
+            "thumbnail": "./images/Products/thumbnail/watch-02.png"
+        },
+        {
+            "id": "0023",
+            "name": "Rolex watch",
+            "description": "Rolex oyster perpetual analogue watch original",
+            "price": 99.99,
+            "rating": 4,
+            "category": "male, female, accessories",
+            "image": "./images/Products/watch-03.jpg",
+            "thumbnail": "./images/Products/thumbnail/watch-03.png"
+        },
+        {
+            "id": "0024",
+            "name": "Apple watch",
+            "description": "Black apple smart digital watch",
+            "price": 51.00,
+            "rating": 5,
+            "category": "male, female, accessories",
+            "image": "./images/Products/watch-04.jpg",
+            "thumbnail": "./images/Products/thumbnail/watch-04.png"
+        },
+        {
+            "id": "0025",
+            "name": "Jimmy choo high heels",
+            "description": "Glitter pink jimmy choo high heels with pointer end",
+            "price": 31.00,
+            "rating": 5,
+            "category": "female, accessories",
+            "image": "./images/Products/womens-heels-05.jpg",
+            "thumbnail": "./images/Products/thumbnail/womens-heels-05.png"
+        },
+        {
+            "id": "0026",
+            "name": "Gold High heels",
+            "description": "Golden high heels with golden cross straps",
+            "price": 20.00,
+            "rating": 3,
+            "category": "female, shoes",
+            "image": "./images/Products/womens-heels-01.jpg",
+            "thumbnail": "./images/Products/thumbnail/womens-heels-01.png"
+        },
+        {
+            "id": "0027",
+            "name": "Cream heels",
+            "description": "Cream high heels with golden sole",
+            "price": 15.30,
+            "rating": 3,
+            "category": "female, accessories",
+            "image": "./images/Products/womens-heels-02.jpg",
+            "thumbnail": "./images/Products/thumbnail/womens-heels-02.png"
+        },
+        {
+            "id": "0028",
+            "name": "Aldo high heels",
+            "description": "Blue aldo high heels with flower pattern pointed end",
+            "price": 51.00,
+            "rating": 5,
+            "category": "female, accessories",
+            "image": "./images/Products/womens-heels-03.jpg",
+            "thumbnail": "./images/Products/thumbnail/womens-heels-03.png"
+        },
+        {
+            "id": "0029",
+            "name": "High heel boots",
+            "description": "Cream high heel boots, flat tip with zipper and lace",
+            "price": 21.00,
+            "rating": 5,
+            "category": "female, accessories",
+            "image": "./images/Products/womens-heels-04.jpg",
+            "thumbnail": "./images/Products/thumbnail/womens-heels-04.png"
+        }
+    ],
+    "featured": [1, 4, 6, 12, 15, 19, 21, 28],
+    "top": [8, 5, 11, 12, 13, 20, 24, 27]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>ElizFashion | Login</title>
+</head>
+<body id="sign">
+    <form action="./index.html">
+        <h1>Sign Up</h1>
+        <label for="email">username:</label><br>
+        <input required type="text" name="username" id="username" placeholder="username"><br>
+        <label for="email">Email Address:</label><br>
+        <input required type="email" name="mail" id="email" placeholder="Example@mail.com"><br>
+        <label for="password">Password:</label><br>
+        <input required type="password" name="password" id="password" placeholder="*********"><br>
+        <p style="text-align: right;"><a href="./login.html">login</a> instead</p>
+        <input onclick="save()" type="submit" value="Sign Up">
+    </form>
+
+    <script>
+        const save = () => {
+            localStorage.removeItem('email')
+            localStorage.email = document.getElementById('email').value
+        }
+    </script>
+</body>
+</html>
